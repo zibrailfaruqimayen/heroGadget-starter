@@ -1,5 +1,15 @@
+import Header from "./components/Header";
+import React from "react";
+import Home from "./components/Home";
+import Footer from "./components/Footer";
 const App = () => {
-  return <h1>Welcome to HeroGadget</h1>
-}
+  return (
+    <>
+      <Header></Header>
+      <Home></Home>
+      <Footer></Footer>
+    </>
+  );
+};
 
-export default App
+export default App;
